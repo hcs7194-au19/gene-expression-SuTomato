@@ -39,10 +39,10 @@ head -100 SubreadIndexNew.Rout
 ls -lh /fs/scratch/PAS1582/YOURID/Gene_Expression/Rsubread/
 # You should have at least 5 files, one of them of more than 1 GB
 ```
-If you have a sucessfull alignment, then you can proceed to prepare the Batch job for alignment using the following script:
+If you have a successful alignment, then you can proceed to prepare the Batch job for alignment using the following script:
 ```Shell
 #PBS -N Rsubread_Rice_align_RNAseq
-#PBS -l walltime=04:00:00
+#PBS -l walltime=01:00:00
 #PBS -l nodes=1:ppn=28,mem=110GB
 #PBS -j oe
 #PBS -m bea
