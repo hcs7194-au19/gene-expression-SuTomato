@@ -1,4 +1,4 @@
-Once you submited the Batch job for Indexing, in the mean time you can edit the next script, also by using nano or the online editor from OSC:
+Once you submitted the Batch job for Indexing, in the mean time you can edit the next script, also by using nano or the online editor from OSC:
 The script looks like this (it is also available to download it through GitHub):
 ```
 nano SubreadIndexNew.R
