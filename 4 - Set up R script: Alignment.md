@@ -1,7 +1,7 @@
 Once you submitted the Batch job for Indexing, in the mean time you can edit the next script, also by using nano or the online editor from OSC:
 The script looks like this (it is also available to download it through GitHub):
 ```
-nano SubreadIndexNew.R
+nano SubreadAlingNew.R
 ```
 The script looks like the excerpt below (it is also available to download it through GitHub). Make sure that you modify the working directory [in ```setwd()```] and all instances corresponding to ```index```, ```readfile1```, ```readfile2``` in ```align()``` and in ```annot.ext``` and ```genome``` in ```featureCounts``` to your actual working directory.
 ```R
